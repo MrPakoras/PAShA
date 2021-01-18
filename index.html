@@ -7,9 +7,9 @@
 <body>
 
 <div class='title'>
-	<h1 class='title_text'>Time since Bilaal watched Episode </h1>
+	<h1 class='title_text'>Time since Anas watched Episode </h1>
 	<h1 class='title_text' id='eps_watched_text'>-</h1>
-	<h1 class='title_text'> of One Piece</h1>
+	<h1 class='title_text'> of Payitaht Abdulhamid</h1>
 </div>
 
 <div class='timer_container'>
@@ -32,16 +32,16 @@
 <div class='text'>
 
 <script>
-var start_date = new Date('Jan 10 2021').getTime(); // Edit this
-var init_start_date = new Date('Apr 15 2020').getTime();
+var start_date = new Date('Dec 04 2020').getTime(); // Edit this
+var init_start_date = new Date('Nov 16 2020').getTime();
 
 var now = new Date().getTime();
 var time_since = now - start_date;
 
-var eps_watched = 44; // Edit this
+var eps_watched = 15; // Edit this
 document.getElementById('eps_watched_text').innerHTML = '\xa0' + eps_watched + '\xa0';
 
-var eps_total = 952
+var eps_total = 665; // 40 minute episode (133 2 hr episodes as of 18/01/21)
 /*
 fetch('file://./ep.txt')
   .then(response => response.text())

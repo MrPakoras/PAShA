@@ -56,7 +56,7 @@ mode = 'RGB'
 twid, thei = 2000, 100
 
 bkg = i.new(mode, (twid, thei)) # Background
-bar = i.new(mode, (math.floor((twid-20)*perc), thei-20), (0, 255, 145))# Progress bar
+bar = i.new(mode, (math.floor((twid-20)*perc), thei-20), (220,0,41))# Progress bar
 
 bkg.paste(bar, (10,10))
 
@@ -68,7 +68,7 @@ bkg.save('progress_bar.png')
 
 ## https://stackoverflow.com/questions/41836988/git-push-via-gitpython
 
-PATH_OF_GIT_REPO = "H:/Anas' Stuff/HTML-CSS-JS/HTML/nonopobservingbilaal/.git"  # make sure .git folder is properly configured
+PATH_OF_GIT_REPO = "H:/Anas' Stuff/HTML-CSS-JS/HTML/PAShA/.git"  # make sure .git folder is properly configured
 COMMIT_MESSAGE = 'Updated Progress Bar'
 
 print(f'{Fore.CYAN}Pushing to Github...')

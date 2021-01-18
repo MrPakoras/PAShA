@@ -1,20 +1,22 @@
 body{
 	font-family: 'Calibri';
-	background-image: url('backgroundg.jpg');
+	background-image: url('backgroundd2.jpg');
 	background-repeat-x: repeat;
 	background-repeat-y: repeat;
-	/*background-color: #6af4ba;*/
-	color: #95ffd2;
+	/*background-color: #3a000b;*/
+	color: #ffc900;
 }
 
 h1{
 	font-family: 'Calibri';
+	color: #ffa000;
 }
 
 p{
 	font-family: 'Calibri';
-	color: #95ffd2;
+	color: #ffc900;
 }
+
 
 .title{
 	font-size: 15px;
@@ -38,15 +40,15 @@ p{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 10px;
-	background-color: #0f4335;
+	background-color: #830019;
 	font-size: 40px;
 	text-align: center;
 }
 
 .timer_container .days_div{
-	background-color: #061612;
+	background-color: #1b0005;
 	border-radius: 10px;
-	border: solid 2px #6af4ba;
+	border: solid 2px #ffa000;
 	display: inline-flex;
 	align-items: center;
 	height: 60px;
@@ -66,9 +68,9 @@ p{
 }
 
 .timer_container .hours_div{
-	background-color: #061612;
+	background-color: #1b0005;
 	border-radius: 10px;
-	border: solid 2px #6af4ba;
+	border: solid 2px #ffa000;
 	margin: none;
 	display: inline-flex;
 	align-items: center;
@@ -87,9 +89,9 @@ p{
 }
 
 .timer_container .mins_div{
-	background-color: #061612;
+	background-color: #1b0005;
 	border-radius: 10px;
-	border: solid 2px #6af4ba;
+	border: solid 2px #ffa000;
 	margin: none;
 	display: inline-flex;
 	align-items: center;
@@ -108,9 +110,9 @@ p{
 }
 
 .timer_container .secs_div{
-	background-color: #061612;
+	background-color: #1b0005;
 	border-radius: 10px;
-	border: solid 2px #6af4ba;
+	border: solid 2px #ffa000;
 	margin: none;
 	display: inline-flex;
 	align-items: center;
@@ -130,8 +132,8 @@ p{
 }
 
 .timer_container .colon_div{
-	background-color: #061612;
-	border: solid 2px #6af4ba;
+	background-color: #1b0005;
+	border: solid 2px #ffa000;
 	border-radius: 10px;
 	margin: none;
 	display: inline-flex;
@@ -152,7 +154,7 @@ p{
 }
 
 .data{
-	background-color: #0f4335;
+	background-color: #830019;
 	border-radius: 5px;
 	padding: 5px;
 	margin-bottom: 10px;
@@ -174,7 +176,7 @@ p{
 
 
 .progbar{
-	background-color: #0f4335;
+	background-color: #830019;
 	text-align: center;
 	padding: 10px;
 	border-radius: 5px;
